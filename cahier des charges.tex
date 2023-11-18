@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[left=2cm,right=2cm,top=0.5cm,bottom=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+
+\title{Cahier des charges}
+\author{noah.moussaoui , Kaan Akman , Alistaire Vionne }
+\date{ 17 November 2023} 
+
+
+\begin{document}
+
+
+\maketitle
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.4]{photo/logo.png}
+    \label{ucl}
+\end{figure}
+
+\section{Introduction}
+Nous avons été contactés par le gouvernement belge pour participer à un projet innovant axé sur la santé des nourrissons, que nous avons baptisé Betag. Ce projet, développé à l'aide de micro:bit sera un produit physique avec lequel l'utilisateur pourra intéragir. Ils seront au nombres de 2 (1 pour l'enfant, 1 pour le parent).
+
+\section{Context}
+Betag est en réponse à une demande du gouvernement belge, elle étudie la santé des nourrissons. Le projet se focalise sur le suivi quotidien de leur consommation de lait et de leur état d'éveil, utilisant le micro:bit et ses capteurs pour une approche simple et pratique pour les parents. L'objectif est de mieux comprendre la santé des nourrissons.
+
+\section{Les fonctions}
+Les fonctions de Betag seront les suivants :
+\begin{enumerate}
+    \item communiquer l’état d’éveil du bébé sur le be:bi’ parent.
+    \item De rassurer le bébé, en fonction de son état d’éveil, sur le be:bi’ enfant.
+    \item La détection des mouvements du nourrisson sur le be:bi’ enfant.
+    \begin{enumerate}
+        \item Cette détection se traduit en trois états d’éveil du bébé en fonction de l’ampleur et de la durée des mouvements.
+        \begin{enumerate}
+            \item  Endormie
+            \item  Agité
+            \item Très agité demand une intervention rapide des parents inclut la situation où le bébé est tombé
+        \end{enumerate}
+    \end{enumerate}
+        \item L’envoi de différents niveaux d’alarmes du be:bi’ enfant au be:bi’ parent (endormi, agité, très agité) 
+        \item Les communication entre les 2 be:bi seront chiffré
+    
+\end{enumerate}
+
+\end{document}
