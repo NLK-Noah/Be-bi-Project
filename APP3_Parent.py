@@ -20,4 +20,3 @@ while True:
         display.clear()
         sleep(1000)
         break
-
